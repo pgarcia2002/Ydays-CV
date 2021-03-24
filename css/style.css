@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+body {
+  background : black
+}
+
+h1{
+   
+    font-family: 'Montserrat', sans-serif;
+     color:white;
+     font-size:40px;
+     }
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 5%;
+    
+}.navbar {
+    display:flex;
+    
+    align-items: center;
+}
+button{
+    
+    background: black;
+     font-size: 30px;
+     color: white;
+     border: none;
+     cursor: pointer;
+     transition: all 0.3s ease 0s;
+     }
+
+button:hover {
+    text-decoration:underline ;
+}
+ * {box-sizing:border-box}
+
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top:60px;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+@media (max-width : 500px) {}
+
